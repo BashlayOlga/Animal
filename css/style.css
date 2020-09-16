@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.block__text {
+	color: lawngreen;
+}
+.title {
+	color: lightseagreen;
+}
+.about {
+	color: black;
+}
+.about__list {
+	color: red;
+}
+.list__text,
+.about__subtitle,
+.footer {
+	color: green;
+}
+.footer__block,
+.footer__text {
+	color: indigo;
+}
+.footer__content {
+	color: brown;
+}
